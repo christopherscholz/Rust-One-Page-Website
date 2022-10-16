@@ -147,6 +147,11 @@ figure#profile-picture {
 
     width: calc(min(100vw,100vh *1.5) /2);
     height: calc(min(86.25vw,86.25vh *1.5) /2);
+
+    -webkit-mask-image: url('/assets/christopher_scholz.png');
+            mask-image: url('/assets/christopher_scholz.png');
+    -webkit-mask-size: cover;
+            mask-size: cover;
 }
 
 figure#profile-picture::after {
